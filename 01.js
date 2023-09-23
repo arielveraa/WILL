@@ -12,6 +12,9 @@ function soloNumeros(array) {
 
   // Tu código aca:
 
+  let enteros = array.filter (numero => Number.isInteger(numero))
+  return enteros
+
 }
 
 // No modifiques nada debajo de esta linea //
